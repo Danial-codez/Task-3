@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Red Card 2018 – China Digital Football Awards</title>
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="wrap">
+    <img class="mark" src="images/logo.png" alt="Red Card" width="180" height="190">
+    <h1>Red Card 2018</h1>
+    <p class="subtitle">China Digital Football Awards</p>
+    <div class="intro">
+      <p>The Red Card is globally recognised as the leading annual report to assess the most influential European football clubs, leagues and players online in China. Now in its 7th year, Red Card 2018 has been reimagined to include 5 additional awards to recognise the many areas of digital performance in China, thereby taking the Red Card report to a whole new level. Due to the nature and variety of these new categories, the winners will be chosen by a panel of 6 industry experts, rather than by the traditional metrics used to assess the three headline awards.</p>
+      <p>This report aims to educate teams and organisations on how to improve their China digital strategy, what today’s Chinese fan wants and what works online in China.</p>
+      <a class="cta" href="#submission">Submit your entry</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap awards">
+    <section aria-labelledby="clubs">
+      <h2 id="clubs"><img src="images/tri.png" alt="" width="50" height="50">Best clubs</h2>
+      <ul class="row"><li><img src="images/bvb.webp" alt="Borussia Dortmund" width="96" height="96" loading="lazy"><b>Borussia Dortmund</b><span>Germany</span></li><li><img src="images/che.webp" alt="Chelsea" width="96" height="96" loading="lazy"><b>Chelsea</b><span>England</span></li><li><img src="images/psg.webp" alt="Paris Saint-Germain" width="96" height="96" loading="lazy"><b>Paris Saint-Germain</b><span>France</span></li><li><img src="images/ars.webp" alt="Arsenal" width="96" height="96" loading="lazy"><b>Arsenal</b><span>England</span></li></ul>
+    </section>
+    <section aria-labelledby="leagues">
+      <h2 id="leagues"><img src="images/tri.png" alt="" width="50" height="50">Best leagues</h2>
+      <ul class="row"><li><img src="images/bl.webp" alt="Bundesliga" width="96" height="96" loading="lazy"><b>Bundesliga</b><span>Germany</span></li><li><img src="images/pl.webp" alt="Premier League" width="96" height="96" loading="lazy"><b>Premier League</b><span>England</span></li></ul>
+    </section>
+    <section aria-labelledby="players">
+      <h2 id="players"><img src="images/tri.png" alt="" width="50" height="50">Best players</h2>
+      <ul class="row"><li><img src="images/ron.webp" alt="Cristiano Ronaldo" width="96" height="96" loading="lazy"><b>Cristiano Ronaldo</b><span>Juventus</span></li></ul>
+    </section>
+
+    <section aria-labelledby="new">
+      <h2 id="new"><img src="images/tri.png" alt="" width="50" height="50">Five new awards</h2>
+      <ul class="newlist">
+        <li>Best Livestream</li><li>Best Tour Campaign</li><li>Best Sponsor Activation</li><li>Best Use of Technology</li><li>Best Online Campaign</li>
+      </ul>
+      <p class="note">Judged by a panel of 6 industry experts.</p>
+    </section>
+  </div>
+
+  <section class="submit" id="submission" aria-labelledby="sub-h">
+    <div class="wrap">
+      <div class="sub-copy">
+        <h2 id="sub-h">Submission</h2>
+        <p>All details of submissions will be kept strictly private and confidential by Mailman and will not be used for any purpose other than judging Red Card 2018 winners.</p>
+        <p class="deadline">Applications will close on the 15th December 2017</p>
+      </div>
+      <form id="form" novalidate>
+        <label class="f"><span>Name</span><input name="name" required autocomplete="name"></label>
+        <label class="f"><span>Email address</span><input name="email" type="email" required autocomplete="email"></label>
+        <label class="f"><span>Organisation</span><input name="org" required autocomplete="organization"></label>
+        <fieldset>
+          <legend>Which award</legend>
+          <p class="hint">Please tick and provide details for all of the awards you would like to be nominated for.</p>
+          <div class="award"><label class="t"><input type="checkbox" name="award" value="Best Livestream"><span class="t">Best Livestream</span></label><textarea name="d0" placeholder="Description &amp; results (max. 150 words)" aria-label="Description for Best Livestream"></textarea><div class="count"></div></div>
+          <div class="award"><label class="t"><input type="checkbox" name="award" value="Best Tour Campaign"><span class="t">Best Tour Campaign</span></label><textarea name="d1" placeholder="Description &amp; results (max. 150 words)" aria-label="Description for Best Tour Campaign"></textarea><div class="count"></div></div>
+          <div class="award"><label class="t"><input type="checkbox" name="award" value="Best Sponsor Activation"><span class="t">Best Sponsor Activation</span></label><textarea name="d2" placeholder="Description &amp; results (max. 150 words)" aria-label="Description for Best Sponsor Activation"></textarea><div class="count"></div></div>
+          <div class="award"><label class="t"><input type="checkbox" name="award" value="Best Use of Technology"><span class="t">Best Use of Technology</span></label><textarea name="d3" placeholder="Description &amp; results (max. 150 words)" aria-label="Description for Best Use of Technology"></textarea><div class="count"></div></div>
+          <div class="award"><label class="t"><input type="checkbox" name="award" value="Best Online Campaign"><span class="t">Best Online Campaign</span></label><textarea name="d4" placeholder="Description &amp; results (max. 150 words)" aria-label="Description for Best Online Campaign"></textarea><div class="count"></div></div>
+
+        </fieldset>
+        <p id="err" class="err" role="alert" hidden></p>
+        <button type="submit" id="send">Submit</button>
+        <p id="ok" class="ok" role="status" hidden>&#10003; Submission successful</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Red Card 2019 winners and report to be launched on 24th January 2019.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var form=document.getElementById('form'),err=document.getElementById('err'),ok=document.getElementById('ok');
+  var words=function(s){s=s.trim();return s?s.split(/\s+/).length:0};
+  form.querySelectorAll('.award').forEach(function(box){
+    var cb=box.querySelector('input[type=checkbox]'),ta=box.querySelector('textarea'),ct=box.querySelector('.count');
+    function upd(){ta.disabled=!cb.checked;box.classList.toggle('on',cb.checked);ct.textContent=words(ta.value)+' / 150 words'}
+    cb.addEventListener('change',upd);ta.addEventListener('input',upd);upd();
+  });
+  form.addEventListener('submit',function(e){
+    e.preventDefault();ok.hidden=true;var msg='';
+    var f=form.elements;
+    if(!f.name.value.trim()||!f.email.value.trim()||!f.org.value.trim())msg='Please fill in your name, email address and organisation.';
+    else if(!/^\S+@\S+\.\S+$/.test(f.email.value))msg='Enter a valid email address.';
+    else{
+      var ticked=form.querySelectorAll('.award.on');
+      if(!ticked.length)msg='Tick at least one award.';
+      ticked.forEach(function(b){var ta=b.querySelector('textarea'),n=words(ta.value);
+        if(!msg&&n===0)msg='Add a description for '+b.querySelector('.t').textContent+'.';
+        if(!msg&&n>150)msg='Keep the description for '+b.querySelector('.t').textContent+' to 150 words.'});
+    }
+    if(msg){err.textContent=msg;err.hidden=false;return}
+    err.hidden=true;ok.hidden=false;/* TODO: send form data to your server here */
+  });
+})();
+</script>
+</body>
+</html>
